@@ -9,9 +9,14 @@ export default function BookForm({
     .sort((a, b) => a.name.localeCompare(b.name))
     .map((location) => location.name);
   return (
-    <form className="BookForm" action="" method="post">
+    <form
+      className="BookForm container bg-blue p-4 rounded-3"
+      style={{ maxWidth: " 600px" }}
+      action=""
+      method="post"
+    >
       <div className="mb-3">
-        <label htmlFor="" className="form-label text-black">
+        <label htmlFor="" className="form-label ">
           Name
         </label>
         <input
@@ -24,7 +29,7 @@ export default function BookForm({
         />
       </div>
       <div className="mb-3">
-        <label htmlFor="" className="form-label text-black">
+        <label htmlFor="" className="form-label">
           Email
         </label>
         <input
@@ -37,7 +42,7 @@ export default function BookForm({
         />
       </div>
       <div className="mb-3 d-flex gap-3 align-items-center justify-content-center">
-        <label htmlFor="" className="form-label text-black p-0 m-0 text-end">
+        <label htmlFor="" className="form-label  p-0 m-0 text-end">
           Number of guests
           {/* <i className="bi bi-person-fill ms-1" /> */}
         </label>
@@ -56,7 +61,7 @@ export default function BookForm({
       </div>
       {includeLocation && (
         <div className="mb-3 d-flex gap-3 align-items-center justify-content-center">
-          <label htmlFor="" className="form-label text-black p-0 m-0 text-end">
+          <label htmlFor="" className="form-label  p-0 m-0 text-end">
             Location
           </label>
           <select
