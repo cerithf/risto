@@ -1,0 +1,144 @@
+// THEME
+$theme-red: #cf4456;
+$theme-yellow: #fed489;
+$theme-teal: #48908c;
+$theme-blue: #365da4;
+$theme-lightBlue: #b6d0ff;
+$theme-green: #385e41;
+$theme-darkBlue: #1b2334;
+$theme-grey: #474a44;
+$theme-cream: #f7ebe4;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "red": $theme-red,
+    "yellow": $theme-yellow,
+    "teal": $theme-teal,
+    "blue": $theme-blue,
+    "lightBlue": $theme-lightBlue,
+    "darkBlue": $theme-darkBlue,
+    "green": $theme-green,
+    "grey": $theme-grey,
+    "cream": $theme-cream,
+  )
+);
+
+$primary: $theme-teal;
+$min-contrast-ratio: 3.5;
+
+// BREAKPOINTS
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+// Then the rest of Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.btn-teal {
+  --bs-btn-color: #fff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-color: #fff;
+  --bs-btn-disabled-color: #fff;
+}
+
+// Update the import directory to point to it‘s location within node_modules
+$bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
+
+// Import the Sass files as usual
+@import "bootstrap-icons/font/bootstrap-icons";
+
+// FONTS
+@import url("https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&display=swap');
+
+.font-kameron {
+  font-family: "Kameron", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.font-coustard {
+  font-family: "Coustard", serif;
+  font-weight: 400;
+  font-style: normal;
+// quotes: “ ”
+}
+
+.font-coustard-black {
+  font-family: "Coustard", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+// ----
+body {
+  color: rgb(var(--bs-tertiary-color-rgb));
+  background-color: $theme-cream;
+}
+
+.thin-content .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.thin-content .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.divider {
+  margin: 3rem 0;
+}
+
+// FOOTER
+
+footer {
+  color: white;
+}
+
+// DEBUGGING
+
+.test-border,
+.tb {
+  border: solid 3px red;
+}
+
+.tb2 {
+  border: solid 3px blue;
+}
+
+// OTHER
+
+.form-label {
+  color: white;
+}
+
+input[name="email"]::placeholder {
+  color: gray;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+
+// ------- ADDED SUPPORT FOR BREAKPOINTS IN CLASSES
+// # Source - https://stackoverflow.com/a/71392811
+// # Posted by user1891758, modified by community. See post 'Timeline' for change history
+// # Retrieved 2026-08-25, License - CC BY-SA 4.0
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+
+$utilities: map-merge( 
+$utilities, ( "width": map-merge( 
+map-get( $utilities, "width"), ( responsive: true ),),)
+);

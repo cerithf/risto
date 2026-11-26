@@ -1,0 +1,25 @@
+@import "../../custom.scss";
+
+.offer {
+
+  &:hover {
+    position: relative;
+    top: 4px;
+  }
+
+  .offer-info {
+    background-color: $theme-blue;
+    @media (min-width: $md) {min-height: 130px;}
+  }
+
+  .redeem-btn {
+    background-color: mix(black, $theme-blue, 30%);
+    align-self: center;
+    padding: 4px 3rem;
+  }
+  .redeem-btn:hover {
+    position: relative;
+    background-color: mix(black, $theme-blue, 60%);
+  }
+
+}

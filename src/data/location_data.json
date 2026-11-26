@@ -1,0 +1,226 @@
+[
+  {
+    "name": "London Shoreditch",
+    "hours": ["12:00", "22:00"],
+    "address": "45 Old Street, Shoreditch, London, EC1V 9HX",
+    "phone": "020 7946 0958",
+    "country": "England"
+  },
+  {
+    "name": "Manchester Northern Quarter",
+    "hours": ["11:00", "21:30"],
+    "address": "18 Thomas Street, Northern Quarter, Manchester, M4 1EU",
+    "phone": "0161 832 4477",
+    "country": "England"
+  },
+  {
+    "name": "Edinburgh Old Town",
+    "hours": ["12:00", "22:30"],
+    "address": "7 Cockburn Street, Old Town, Edinburgh, EH1 1BP",
+    "phone": "0131 225 6698",
+    "country": "Scotland"
+  },
+  {
+    "name": "Birmingham Digbeth",
+    "hours": ["11:30", "21:00"],
+    "address": "22 Floodgate Street, Digbeth, Birmingham, B5 5SL",
+    "phone": "0121 643 2210",
+    "country": "England"
+  },
+  {
+    "name": "Leeds City Centre",
+    "hours": ["11:00", "22:00"],
+    "address": "9 Call Lane, Leeds, LS1 6DT",
+    "phone": "0113 245 8871",
+    "country": "England"
+  },
+  {
+    "name": "Glasgow Merchant City",
+    "hours": ["12:00", "23:00"],
+    "address": "31 Ingram Street, Merchant City, Glasgow, G1 1HA",
+    "phone": "0141 552 3390",
+    "country": "Scotland"
+  },
+  {
+    "name": "Liverpool Baltic Triangle",
+    "hours": ["11:30", "21:30"],
+    "address": "14 Jamaica Street, Baltic Triangle, Liverpool, L1 0AF",
+    "phone": "0151 709 4453",
+    "country": "England"
+  },
+  {
+    "name": "Cardiff Bay",
+    "hours": ["11:00", "21:00"],
+    "address": "2 Mermaid Quay, Cardiff Bay, Cardiff, CF10 5BZ",
+    "phone": "029 2049 8817",
+    "country": "Wales"
+  },
+  {
+    "name": "Oxford City Centre",
+    "hours": ["12:00", "21:30"],
+    "address": "16 George Street, Oxford, OX1 2AF",
+    "phone": "01865 792 341",
+    "country": "England"
+  },
+  {
+    "name": "Cambridge Market Square",
+    "hours": ["11:30", "21:00"],
+    "address": "3 Market Hill, Cambridge, CB2 3NJ",
+    "phone": "01223 356 720",
+    "country": "England"
+  },
+  {
+    "name": "Brighton Lanes",
+    "hours": ["11:00", "22:30"],
+    "address": "27 Ship Street, The Lanes, Brighton, BN1 1AD",
+    "phone": "01273 674 512",
+    "country": "England"
+  },
+  {
+    "name": "Newcastle Quayside",
+    "hours": ["12:00", "22:00"],
+    "address": "5 Broad Chare, Quayside, Newcastle upon Tyne, NE1 3DQ",
+    "phone": "0191 232 6689",
+    "country": "England"
+  },
+  {
+    "name": "Sheffield Kelham Island",
+    "hours": ["11:30", "21:00"],
+    "address": "11 Alma Street, Kelham Island, Sheffield, S3 8SA",
+    "phone": "0114 275 9903",
+    "country": "England"
+  },
+  {
+    "name": "Nottingham Lace Market",
+    "hours": ["11:00", "21:30"],
+    "address": "8 Broadway, Lace Market, Nottingham, NG1 1PS",
+    "phone": "0115 947 2216",
+    "country": "England"
+  },
+  {
+    "name": "York City Walls",
+    "hours": ["11:30", "20:30"],
+    "address": "19 Fossgate, York, YO1 9TF",
+    "phone": "01904 638 271",
+    "country": "England"
+  },
+  {
+    "name": "Bath Southgate",
+    "hours": ["11:00", "21:00"],
+    "address": "6 Southgate Street, Bath, BA1 1AP",
+    "phone": "01225 448 903",
+    "country": "England"
+  },
+  {
+    "name": "Exeter Quay",
+    "hours": ["11:30", "20:30"],
+    "address": "4 The Quay, Exeter, EX2 4AN",
+    "phone": "01392 217 654",
+    "country": "England"
+  },
+  {
+    "name": "Norwich Riverside",
+    "hours": ["11:00", "21:30"],
+    "address": "12 Riverside Road, Norwich, NR1 1SQ",
+    "phone": "01603 665 148",
+    "country": "England"
+  },
+  {
+    "name": "Southampton Oxford Street",
+    "hours": ["11:30", "21:00"],
+    "address": "21 Oxford Street, Southampton, SO14 3DJ",
+    "phone": "023 8022 9974",
+    "country": "England"
+  },
+  {
+    "name": "Portsmouth Gunwharf",
+    "hours": ["11:00", "21:30"],
+    "address": "Unit 42, Gunwharf Quays, Portsmouth, PO1 3TZ",
+    "phone": "023 9283 5561",
+    "country": "England"
+  },
+  {
+    "name": "Belfast Cathedral Quarter",
+    "hours": ["12:00", "22:00"],
+    "address": "9 Hill Street, Cathedral Quarter, Belfast, BT1 2LA",
+    "phone": "028 9024 7783",
+    "country": "N. Ireland"
+  },
+  {
+    "name": "Leicester Cultural Quarter",
+    "hours": ["11:30", "21:00"],
+    "address": "15 Rutland Street, Leicester, LE1 1RF",
+    "phone": "0116 285 3392",
+    "country": "England"
+  },
+  {
+    "name": "Derby Cathedral Quarter",
+    "hours": ["11:00", "20:30"],
+    "address": "10 Sadler Gate, Derby, DE1 3NR",
+    "phone": "01332 559 204",
+    "country": "England"
+  },
+  {
+    "name": "Coventry City Centre",
+    "hours": ["11:30", "21:00"],
+    "address": "17 Hertford Street, Coventry, CV1 1LF",
+    "phone": "024 7622 8865",
+    "country": "England"
+  },
+  {
+    "name": "Reading Oracle",
+    "hours": ["11:00", "21:30"],
+    "address": "Unit 8, The Oracle, Reading, RG1 2AG",
+    "phone": "0118 950 7723",
+    "country": "England"
+  },
+  {
+    "name": "Plymouth Barbican",
+    "hours": ["11:30", "20:30"],
+    "address": "3 Southside Street, Barbican, Plymouth, PL1 2LB",
+    "phone": "01752 264 419",
+    "country": "England"
+  },
+  {
+    "name": "Aberdeen Union Street",
+    "hours": ["12:00", "21:00"],
+    "address": "58 Union Street, Aberdeen, AB10 1BA",
+    "phone": "01224 337 690",
+    "country": "Scotland"
+  },
+  {
+    "name": "Dundee Waterfront",
+    "hours": ["11:30", "20:30"],
+    "address": "2 Slessor Gardens, Dundee, DD1 4NY",
+    "phone": "01382 224 578",
+    "country": "Scotland"
+  },
+  {
+    "name": "Swansea Marina",
+    "hours": ["11:00", "20:30"],
+    "address": "9 Trawler Road, Swansea Marina, Swansea, SA1 1FY",
+    "phone": "01792 468 213",
+    "country": "Wales"
+  },
+  {
+    "name": "Milton Keynes Centre",
+    "hours": ["11:30", "21:00"],
+    "address": "220 Midsummer Boulevard, Milton Keynes, MK9 1EA",
+    "phone": "01908 674 335",
+    "country": "England"
+  },
+  {
+    "name": "Chester Rows",
+    "hours": ["11:00", "20:30"],
+    "address": "14 Bridge Street, Chester, CH1 1NQ",
+    "phone": "01244 322 987",
+    "country": "England"
+  },
+  {
+    "name": "Canterbury High Street",
+    "hours": ["11:30", "20:00"],
+    "address": "33 High Street, Canterbury, CT1 2RX",
+    "phone": "01227 458 712",
+    "country": "England"
+  }
+]

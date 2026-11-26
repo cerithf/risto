@@ -1,0 +1,12 @@
+@import "../../custom.scss";
+
+footer {
+
+  .social-badge {
+    height: 28px;
+
+    &:hover {
+      cursor: not-allowed;
+    }
+  }
+}

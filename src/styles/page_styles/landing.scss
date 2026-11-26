@@ -1,0 +1,94 @@
+
+@import "../../custom.scss";
+
+.LandingPage {
+  height: 100vh;
+  overflow: hidden;
+
+  h1.landing-title {
+    font-size: 7em;
+  }
+
+  .hero-gif-container img {
+    transform: scale(1.2);
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+  }
+
+  .hero-gif-container.raise img {
+    position: relative;
+    top: -50px;
+  }
+
+  .small-view .hero-gif-container img {
+    min-height: auto;
+  }
+
+  .col {
+    height: 100vh;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .hero-gif-container {
+    overflow: hidden;
+    margin: 0;
+    height: 100%;
+    flex: 2 1 0;
+  }
+
+  .big-link {
+    transition: flex 1s ease;
+    border-left: solid $theme-lightBlue;
+    border-top: solid $theme-lightBlue;
+    box-shadow: 3px 3px $theme-lightBlue;
+  }
+
+  .small-view:has(.big-link) {
+    gap: 1em;
+  }
+
+  .small-view .big-link {
+    text-align: center;
+    width: 100%;
+  }
+
+  .big-link:hover {
+    flex: 1 1 0;
+    transition: flex 1s ease;
+  }
+}
+
+// LARGE VIEWPORT
+@media(max-width: $lg) {
+
+  .LandingPage h1.landing-title {
+    font-size: 6em;
+  }
+}
+
+// MEDIUM VIEWPORT
+@media(max-width: $md) {
+
+  .LandingPage h1.landing-title {
+    font-size: 5em;
+  }
+}
+
+// SMALL VIEWPORT
+@media(max-width: $sm) {
+
+  .LandingPage {
+    overflow: auto;
+    padding-bottom: 2em;
+
+    h1.landing-title {
+      font-size: 5em;
+    }
+
+  }
+
+}

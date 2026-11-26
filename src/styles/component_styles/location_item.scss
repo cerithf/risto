@@ -1,0 +1,49 @@
+@import "../../custom.scss";
+
+input.custom-focus:focus {
+  outline: $theme-blue solid 0.5px;
+  box-shadow: none;
+  border: $theme-blue solid 1px;
+}
+
+.guest-input {
+
+  position: relative;
+  
+  input {
+    
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      background: $theme-blue;
+      opacity: 1;
+      width: 2em;
+      // border-left: 1px solid #bbb;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  i.up-arrow, i.down-arrow {
+    color: white;
+    position: absolute;
+    float: left;
+    right: 9px;
+    pointer-events: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+    i.up-arrow {
+      top: 0px;
+    }
+
+    i.down-arrow {
+      bottom: 0px;
+    }
+
+}

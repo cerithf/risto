@@ -1,0 +1,68 @@
+
+@import "../../custom.scss";
+
+.HomePage .benvenuto-hero {
+
+  .hero-title {
+    width: 55%;
+
+    h1 {
+        line-height: 80%;
+    }
+
+  }
+
+    min-height: 320px;
+
+    .tile-img {
+    position: absolute;
+    right: 3%;
+    bottom: -30%;
+    width: 360px;
+    transform: rotate(30deg);
+    z-index: -1;
+    opacity: 90%;
+    }
+
+    .tile-img-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 0%;
+    background-color: #e5e5e5;
+    }
+
+    @media (max-width: $lg) {
+        .tile-img {
+          width: 300px;
+      }
+    }
+
+    @media (max-width: $md) {
+
+      .tile-img {
+        right: -14%;
+        bottom: -25%;
+        transform: rotate(45deg);
+      }
+
+      .tile-img-2 {
+        left: -14%;
+        top: -25%;
+      }
+    }
+
+    @media (max-width: $sm) {
+
+      .tile-img {
+        right: -25%;
+        bottom: -25%;
+      }
+
+      .tile-img-2 {
+        left: -25%;
+        top: -25%;
+      }
+    }
+
+}

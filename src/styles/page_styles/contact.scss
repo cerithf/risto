@@ -1,0 +1,7 @@
+@import "../../custom.scss";
+
+.ContactPage {
+    & .container {
+        max-width: 800px;
+    }
+}

@@ -1,0 +1,78 @@
+name,description,price,calories,category,dietary
+Bruschetta al Pomodoro,"Toasted ciabatta topped with fresh tomato, basil and garlic",6.50,220,Starters,"vegetarian, vegan"
+Arancini di Riso,"Crispy fried risotto balls filled with mozzarella and peas",7.25,340,Starters,vegetarian
+Calamari Fritti,"Lightly battered fried squid served with lemon and aioli",8.95,410,Starters,
+Caprese Classica,"Sliced buffalo mozzarella with tomato, basil and olive oil",7.75,290,Starters,"vegetarian, gluten-free"
+Antipasto Misto,"A selection of cured meats, cheeses and marinated vegetables",10.50,480,Starters,gluten-free
+Carpaccio di Manzo,"Thinly sliced raw beef with rocket, parmesan and truffle oil",11.00,260,Starters,gluten-free
+Zuppa del Giorno,"Chef's daily soup served with crusty bread",5.95,180,Starters,vegetarian
+Cozze alla Marinara,"Steamed mussels in white wine, garlic and tomato sauce",9.50,320,Starters,"gluten-free, dairy-free"
+Polpette al Sugo,"Beef and pork meatballs simmered in rich tomato sauce",8.25,390,Starters,
+Funghi Trifolati,"Sauteed mushrooms with garlic, parsley and white wine",6.95,210,Starters,"vegetarian, vegan, gluten-free"
+Margherita,"Classic tomato, mozzarella and fresh basil",10.95,780,Pizza,vegetarian
+Marinara,"Tomato, garlic, oregano and extra virgin olive oil",9.50,650,Pizza,"vegan, dairy-free"
+Prosciutto e Funghi,"Tomato, mozzarella, ham and mushrooms",12.95,860,Pizza,
+Quattro Formaggi,"Mozzarella, gorgonzola, parmesan and fontina",13.50,910,Pizza,vegetarian
+Diavola,"Tomato, mozzarella and spicy salami",12.50,880,Pizza,
+Capricciosa,"Tomato, mozzarella, ham, artichokes, mushrooms and olives",13.95,900,Pizza,
+Quattro Stagioni,"Tomato, mozzarella divided into four seasonal toppings",13.95,890,Pizza,
+Vegetariana,"Tomato, mozzarella, peppers, courgette and aubergine",11.95,760,Pizza,vegetarian
+Frutti di Mare,"Tomato, mozzarella, mixed seafood and parsley",14.95,850,Pizza,
+Vegan Delizia,"Vegan cheese, tomato, mushrooms, olives and rocket",12.50,700,Pizza,"vegan, dairy-free"
+Bianca Tartufo,"White base with truffle cream, mozzarella and mushrooms",15.50,880,Pizza,vegetarian
+Napoletana,"Tomato, mozzarella, anchovies, capers and oregano",12.25,770,Pizza,
+Spaghetti alla Carbonara,"Egg, pancetta, pecorino and black pepper",12.50,650,Pasta,
+Spaghetti al Pomodoro,"Fresh tomato sauce with basil and parmesan",10.50,540,Pasta,vegetarian
+Fettuccine Alfredo,"Egg pasta in a creamy parmesan and butter sauce",11.95,720,Pasta,vegetarian
+Penne all'Arrabbiata,"Penne in a spicy tomato and chilli sauce",10.95,560,Pasta,"vegetarian, vegan"
+Lasagne al Forno,"Layered pasta with beef ragu, bechamel and cheese",13.50,780,Pasta,
+Tagliatelle al Tartufo,"Ribbon pasta with creamy truffle sauce",15.95,700,Pasta,vegetarian
+Linguine alle Vongole,"Linguine with clams, garlic, white wine and parsley",14.50,610,Pasta,dairy-free
+Ravioli di Spinaci e Ricotta,"Spinach and ricotta stuffed ravioli in sage butter",12.95,640,Pasta,vegetarian
+Gnocchi al Gorgonzola,"Potato gnocchi in a rich gorgonzola cream sauce",11.95,690,Pasta,vegetarian
+Pappardelle al Cinghiale,"Wide ribbon pasta with slow-cooked wild boar ragu",14.95,750,Pasta,
+Risotto ai Funghi,"Creamy arborio rice with wild mushrooms and parmesan",12.50,600,Pasta,"vegetarian, gluten-free"
+Orecchiette con Broccoli,"Ear-shaped pasta with broccoli, garlic and chilli",10.95,520,Pasta,"vegetarian, vegan"
+Cannelloni Ricotta e Spinaci,"Pasta tubes filled with ricotta and spinach in tomato sauce",12.95,670,Pasta,vegetarian
+Spaghetti Bolognese,"Traditional slow-cooked beef and pork ragu",11.95,680,Pasta,
+Tortellini in Brodo,"Meat-filled tortellini served in a light chicken broth",11.50,430,Pasta,
+Pasta Vegan al Pesto,"Fusilli tossed in a dairy-free basil and pine nut pesto",11.50,560,Pasta,"vegan, dairy-free"
+Pollo alla Parmigiana,"Breaded chicken breast baked with tomato and mozzarella",15.95,780,Al Forno,
+Melanzane alla Parmigiana,"Layered aubergine baked with tomato and mozzarella",13.50,620,Al Forno,vegetarian
+Vitello alla Milanese,"Breaded veal cutlet baked with a light tomato sauce",17.95,760,Al Forno,
+Branzino al Forno,"Whole sea bass baked with lemon, herbs and olive oil",18.50,480,Al Forno,"gluten-free, dairy-free"
+Agnello al Forno,"Slow-roasted lamb shoulder with rosemary and garlic",19.95,690,Al Forno,gluten-free
+Pollo al Rosmarino,"Roasted rosemary chicken thighs with roast potatoes",15.50,720,Al Forno,gluten-free
+Baccala al Forno,"Oven-baked salt cod with tomatoes, olives and capers",16.95,510,Al Forno,"gluten-free, dairy-free"
+Parmigiana Vegana,"Baked aubergine layered with vegan cheese and tomato sauce",13.95,590,Al Forno,"vegan, dairy-free"
+Insalata Mista,"Mixed leaves, cherry tomatoes, cucumber and red onion",5.95,150,Salads,"vegan, gluten-free"
+Insalata Caprese,"Sliced tomato and mozzarella with basil and olive oil",7.95,320,Salads,"vegetarian, gluten-free"
+Insalata di Rucola e Parmigiano,"Rocket, shaved parmesan, pine nuts and balsamic",7.50,280,Salads,"vegetarian, gluten-free"
+Insalata di Pollo alla Griglia,"Grilled chicken with mixed leaves and balsamic dressing",10.95,410,Salads,gluten-free
+Insalata di Tonno,"Tuna, cannellini beans, red onion and olives",9.95,390,Salads,"gluten-free, dairy-free"
+Insalata Panzanella,"Tuscan bread salad with tomato, cucumber and basil",8.50,340,Salads,"vegetarian, vegan"
+Patate Arrosto,"Rosemary roasted potatoes",4.50,290,Sides,"vegan, gluten-free"
+Verdure Grigliate,"Chargrilled seasonal vegetables with olive oil",5.50,180,Sides,"vegan, gluten-free"
+Spinaci Saltati,"Sauteed spinach with garlic and olive oil",4.95,140,Sides,"vegan, gluten-free"
+Pane all'Aglio,"Toasted garlic bread with herb butter",4.25,320,Sides,vegetarian
+Pane all'Aglio con Formaggio,"Garlic bread topped with melted mozzarella",5.25,410,Sides,vegetarian
+Patatine Fritte,"Crispy hand-cut chips",4.25,380,Sides,"vegan, gluten-free"
+Insalata di Fagioli,"Warm cannellini bean salad with olive oil and herbs",4.95,220,Sides,"vegan, gluten-free"
+Tiramisu,"Layered mascarpone and espresso-soaked sponge",7.50,450,Desserts,vegetarian
+Panna Cotta,"Silky vanilla cream with a berry coulis",6.95,380,Desserts,"vegetarian, gluten-free"
+Cannoli Siciliani,"Crisp pastry shells filled with sweet ricotta cream",6.50,410,Desserts,vegetarian
+Torta al Cioccolato,"Warm chocolate cake with a molten centre",7.95,520,Desserts,vegetarian
+Gelato Misto,"A selection of three artisan gelato flavours",6.50,340,Desserts,"vegetarian, gluten-free"
+Affogato,"Vanilla gelato drowned in a shot of hot espresso",5.95,260,Desserts,"vegetarian, gluten-free"
+Torta di Mele,"Traditional Italian apple cake with cinnamon",6.95,410,Desserts,vegetarian
+Sorbetto al Limone,"Refreshing lemon sorbet",5.50,190,Desserts,"vegan, gluten-free, dairy-free"
+Zabaglione,"Warm whipped egg yolk and Marsala wine dessert",7.25,330,Desserts,"vegetarian, gluten-free"
+Acqua Minerale,"Still or sparkling mineral water",3.00,0,Drinks,"vegan, gluten-free, dairy-free"
+Limonata,"Freshly squeezed lemonade",4.00,120,Drinks,"vegan, gluten-free, dairy-free"
+Espresso,"Classic single shot of Italian espresso",2.80,5,Drinks,"vegan, gluten-free, dairy-free"
+Cappuccino,"Espresso with steamed and foamed milk",3.50,120,Drinks,vegetarian
+Aperol Spritz,"Aperol, prosecco and soda over ice",8.50,180,Drinks,"vegan, gluten-free, dairy-free"
+Chianti Classico (Glass),"A glass of medium-bodied Tuscan red wine",7.50,125,Drinks,"vegan, gluten-free, dairy-free"
+Pinot Grigio (Glass),"A glass of crisp, dry Italian white wine",7.00,120,Drinks,"vegan, gluten-free, dairy-free"
+Peroni,"Italian lager, 330ml bottle",5.00,150,Drinks,"vegan, dairy-free"
+San Pellegrino Aranciata,"Sparkling orange soft drink",3.50,90,Drinks,"vegan, gluten-free, dairy-free"

@@ -1,0 +1,25 @@
+@import "../../custom.scss";
+
+header {
+
+   h1.homepage {
+      font-size: 10em;
+   }
+
+   @media(max-width: $lg) {
+      h1.homepage {
+         font-size: 6em;
+      }
+   }
+
+ li.nav-item a {
+   color: $theme-cream;
+
+   &:hover {
+   //  background-color: mix(black, $theme-lightBlue, 30%);
+   background-color: $theme-lightBlue;
+   color: $theme-blue;
+   }
+ }
+
+}

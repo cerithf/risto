@@ -1,0 +1,123 @@
+@import "../../custom.scss";
+
+.AboutPage {
+
+    .timeline-container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 0 10%;
+    }
+
+    .line {
+        width: 0px;
+        top: 0px;
+        left: 50%;
+        height: 100%;
+        align-self: center;
+        z-index: -1;
+        position: absolute;
+        border-left: $theme-blue dotted;
+    }  
+
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        top: 0;
+        width: 100%;
+        gap: 1em;
+    }
+
+    .timeline-item {
+        width: 48%;
+        padding: 12px;
+        position: relative;
+    }
+
+    .timeline-item p {
+        padding: 0;
+        font-size: 1.1em;
+    }
+
+    .timeline-item:not(:first-child) {
+        margin-top: -10vh;
+    }
+
+    .timeline-item:nth-child(2n) {
+        text-align: right;
+        padding-left: 3em;
+    }   
+
+    .timeline-item:nth-child(2n+1) {
+        align-self: flex-end;
+        padding-right: 3em;
+    }
+
+    .timeline-item img {
+        z-index: -1;
+        opacity: 80%;
+        height: 50%;
+        width: 40%;
+        min-width: 100px;
+        margin-bottom: 0.5em;
+        position: relative;
+        bottom: 1em;
+    }
+
+    img.right-tilt {
+        transform: rotate(6deg);
+        float: right;
+        left: 1.5em;
+    }
+
+    img.left-tilt {
+        transform: rotate(-6deg);
+        float: left;
+        right: 1.5em;
+    }
+
+    @media(max-width: $lg) {
+        .timeline-container {
+            padding: 0;
+        }
+
+        .timeline-item img {
+            bottom: -1em;
+        }
+    }
+
+    @media(max-width: $md) {
+
+        .timeline-container {
+            padding: 0;
+        }
+
+        .timeline-item {
+
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+
+            p {
+                font-size: 1em;
+            }
+            
+            & img {
+            float: none;
+            width: 70%;
+            bottom: 0;
+            }
+
+            & img.right-tilt {
+                align-self: flex-start;
+            }
+
+
+            & img.left-tilt {
+                align-self: flex-end;
+            }
+    
+        }
+    }
+}

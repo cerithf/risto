@@ -1,0 +1,28 @@
+@import "../../custom.scss";
+
+.MenuPage {
+    
+    .menu-category-title {
+        font-family: "Coustard", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: 2px 2px 8px $theme-cream;
+    }
+
+    .page-header .page-title {
+        text-shadow: 2px 2px 18px $theme-cream;
+    }
+
+    .menu-item .card {
+        box-shadow: 4px 4px $theme-blue !important;
+        border-color: $theme-blue;
+
+        &:hover {
+            position: relative;
+            top: 2px;
+            border-color: $theme-green;
+            box-shadow: 4px 4px $theme-green !important;
+        }
+    }
+
+}

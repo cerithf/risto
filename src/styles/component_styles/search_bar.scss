@@ -1,0 +1,37 @@
+@import "../../custom.scss";
+
+.search-bar {
+  list-style: none;
+  transition: grid-template-rows 1s ease;
+
+  li.search-field form {
+    display: flex;
+    gap: 12px;
+  }
+
+  & li.category-item,
+  & button {
+    font-weight: 500;
+
+    &:hover {
+      opacity: 80%;
+      cursor: pointer;
+    }
+  }
+
+  li.category-item {
+    flex: 1 1 80px;
+    max-width: 100px;
+  }
+
+  li.search-field {
+    flex: 1 1 600px;
+  }
+
+}
+
+@media (min-width: $xl) {
+  .search-bar li.category-item {
+    min-width: 140px;
+  }
+}

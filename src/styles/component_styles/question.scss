@@ -1,0 +1,22 @@
+@import "../../custom.scss";
+
+
+div.container:has(.question) {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(autofill, minmax(200px, 1fr));
+}
+
+.question {
+    transition: 2s;
+}
+
+span:has(.question-caret.rotated) {
+    transform: rotate(90deg);
+    transition: transform 0.25s ease;
+}
+
+span:has(.question-caret) {
+    transform: rotate(0deg);
+    transition: transform 0.25s ease;
+}
