@@ -2,47 +2,41 @@
 
 .hero-container {
 
+  position: relative;
+  min-height: 500px;
+
+  .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .content {
     position: relative;
-    min-height: 500px;
-
-    .bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        opacity: 0.5;
-        z-index: -1;
-    }
-
-    .content {
-        position: relative;
-    }
+  }
 }
 
 .gif-hero {
+  img.hero-gif {
+    transform: scale(1.1);
+    width: 100%;
+    height: 100%;
+  }
 
-    img.hero-gif {
-        transform: scale(1.1);
-        width: 100%;
-        height: 100%;
+  .hero-gif-container {
+    overflow: hidden;
+    margin: 0;
+    flex: 1 1 0;
+    position: relative;
 
-
+    &:hover {
+      filter: grayscale(1);
+      transition: 0.5s;
     }
-
-    .hero-gif-container {
-        overflow: hidden;
-        margin: 0;
-        flex: 1 1 0;
-        position: relative;
-
-        &:hover {
-            filter: grayscale(1);
-            transition: 0.5s;
-        }
-  
-    }
-
+  }
 }
-

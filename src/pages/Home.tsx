@@ -3,6 +3,7 @@ import Feauturette from "../components/Featurette";
 import PastaContainer from "../components/PastaContainer";
 import Offer from "../components/Offer";
 import GifHero from "../components/GifHero";
+import { Link } from "react-router-dom";
 import { Container, Row } from "react-bootstrap";
 import "../styles/page_styles/home.scss";
 // images
@@ -28,7 +29,7 @@ export default function Home() {
         className="benvenuto-hero px-4 py-lg-5 text-center position-relative overflow-hidden d-flex flex-column justify-content-center align-items-center"
         style={{
           minHeight: "500px",
-          zIndex: "-1",
+          zIndex: "0",
         }}
       >
         <div className="hero-title d-flex flex-column align-items-center">
@@ -40,12 +41,12 @@ export default function Home() {
           </p>
         </div>
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center align-self-center">
-          <button type="button" className="btn btn-blue btn-lg px-4 gap-3">
+          <Link to="/book" className="btn btn-blue btn-lg px-4 z-2">
             Book a table
-          </button>
-          <button type="button" className="btn btn-lg px-4 bg-white text-blue">
-            See our menu
-          </button>
+          </Link>
+          <Link to="/menu" className="btn btn-lg px-4 bg-white text-blue">
+            See our menu{" "}
+          </Link>
         </div>
         <img src={TileImg} className="tile-img shadow-md shadow scale-50 " />
         <img src={TileImg} className="tile-img tile-img-2 shadow" />
